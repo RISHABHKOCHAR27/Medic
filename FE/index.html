@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AMREKS - Global Exporter</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="#home">AMREKS</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#quality">Quality</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="hero-section">
+    <div class="hero-content">
+      <h1 class="animate-fade-in">Welcome to AMREKS</h1>
+      <h2 class="animate-slide-up">Global exporter of quality medicines.</h2>
+      <a href="#about" class="btn animate-fade-in">Learn More</a>
+    </div>
+  </section>
+
+  <div class="container">
+    <!-- About Us Section (moved up) -->
+    <div class="section" id="about">
+      <h2>About Us</h2>
+      <p><strong>Who We Are:</strong> AMREKS is a trusted pharmaceutical export company based in India, committed to facilitating the global distribution of high-quality medicinal products. With a focus on reliability, compliance, and customer satisfaction, we ensure a seamless supply chain to meet international healthcare demands.</p>
+      <p><strong>Our Mission:</strong> To advance global healthcare by providing access to safe, effective, and affordable pharmaceutical solutions across international markets.</p>
+      <p><strong>Why Choose Us:</strong> At AMREKS, quality and reliability define our operations. Our WHO-GMP certified product portfolio complies with international regulatory standards, ensuring confidence in every shipment. We offer competitive, transparent pricing without compromising on quality. Supported by an efficient global logistics network, we ensure timely delivery and consistently uphold client trust and satisfaction.</p>
+    </div>
+
+    <!-- Products Section -->
+    <div class="section" id="products">
+      <h2>Explore Our Products</h2>
+      
+      <!-- Featured Products View (initially visible) -->
+      <div id="featured-view">
+        <div class="featured-products">
+          <div class="featured-product" data-category="Injections">
+            <div class="product-image">
+              <img src="assets/images/injections.png" alt="Injections" onerror="this.src='https://via.placeholder.com/300x200?text=Injections'">
+            </div>
+            <h3>Injections</h3>
+          </div>
+          <div class="featured-product" data-category="Tablets">
+            <div class="product-image">
+              <img src="assets/images/tablets.jpg" alt="Tablets" onerror="this.src='https://via.placeholder.com/300x200?text=Tablets'">
+            </div>
+            <h3>Tablets</h3>
+          </div>
+          <div class="featured-product" data-category="Capsules">
+            <div class="product-image">
+              <img src="assets/images/capsules.jpg" alt="Capsules" onerror="this.src='https://via.placeholder.com/300x200?text=Capsules'">
+            </div>
+            <h3>Capsules</h3>
+          </div>
+        </div>
+      </div>
+      
+      <!-- List View (initially hidden) -->
+      <div id="list-view" class="hidden">
+        <ul class="products-list">
+          <li class="product-item" data-category="Injections">Injections</li>
+          <li class="product-item" data-category="Tablets">Tablets</li>
+          <li class="product-item" data-category="Capsules">Capsules</li>
+          <li class="product-item" data-category="External Preparations">External Preparations</li>
+          <li class="product-item" data-category="Suspensions & Syrups">Suspensions & Syrups</li>
+          <li class="product-item" data-category="Veterinary Preparations">Veterinary Preparations</li>
+          <li class="product-item" data-category="">Lyophilized Products</li>
+          <li class="product-item" data-category="">Eye/Ear/Nasal Drop</li>
+          <li class="product-item" data-category="">Suppositories/Pessaries</li>
+          <li class="product-item" data-category="">Metered Dose Inhalers</li>
+          <li class="product-item" data-category="">Soft Gel Capsules</li>
+          <li class="product-item" data-category="">Disinfectant</li>
+          <li class="product-item" data-category="">Mosquito Repellant Spray</li>
+          <li class="product-item" data-category="">COPPs</li>
+        </ul>
+      </div>
+      
+      <div class="show-more-container">
+        <button id="show-more-btn" class="btn">Show More Products</button>
+      </div>
+    </div>
+
+    <!-- Services Section with Images -->
+    <div class="section" id="services">
+      <h2>Services</h2>
+      
+      <div class="service-item">
+        <div class="service-content">
+          <h3>Private Labeling</h3>
+          <p>We specialize in delivering comprehensive private labeling solutions that include customized branding and packaging tailored to align with each client’s specific market objectives and regulatory requirements. Our approach ensures that every product reflects a strong, differentiated brand identity, helping clients build credibility, enhance visibility, and establish a lasting presence in competitive global markets.</p>
+        </div>
+        <div class="service-image">
+          <img src="assets/images/labelling.png" alt="Private Labeling Service">
+        </div>
+      </div>
+      
+      <div class="service-item reverse">
+        <div class="service-content">
+          <h3>Sourcing & Procurement</h3>
+          <p>When required, we leverage our extensive industry network to identify and collaborate with reliable, certified manufacturers. This enables us to source high-quality pharmaceutical products that are meticulously aligned with client specifications, regulatory expectations, and international quality standards—ensuring consistency, safety, and satisfaction across every delivery.</p>
+        </div>
+        <div class="service-image">
+          <img src="assets/images/sourcing.png" alt="Sourcing & Procurement Service">
+        </div>
+      </div>
+      
+      <div class="service-item">
+        <div class="service-content">
+          <h3>Custom Orders</h3>
+          <p>We expertly manage specialized orders tailored to meet the diverse regulatory, commercial, and logistical requirements of distinct international markets. Our adaptive approach ensures exceptional flexibility, precision in execution, and full compliance with country-specific standards—delivering a seamless and dependable fulfillment experience for every client. </p>
+        </div>
+        <div class="service-image">
+          <img src="assets/images/custom.png" alt="Custom Orders Service">
+        </div>
+      </div>
+      
+      <div class="service-item reverse">
+        <div class="service-content">
+          <h3>Regulatory Filings & Dossier Support</h3>
+          <p>Our dedicated regulatory team offers end-to-end support in preparing and managing documentation and dossiers, ensuring seamless product registration and adherence to international compliance standards. With deep expertise in diverse regulatory frameworks, we help streamline approvals and accelerate market entry across global territories.</p>
+        </div>
+        <div class="service-image">
+          <img src="assets/images/regulatory.png" alt="Regulatory Filings Service">
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="quality">
+      <h2>Quality Assurance</h2>
+      <p>At AMREKS, quality is the cornerstone of our operations. Every product undergoes thorough inspection, secure packaging, and meticulous documentation in accordance with international export standards. Our unwavering commitment to excellence is reinforced through regular quality audits and long-standing partnerships with certified manufacturers, ensuring consistent compliance and reliability across all shipments.</p>
+    </div>
+
+    <div class="section" id="contact">
+      <h2>Contact Us</h2>
+      <p>Whether you're a wholesaler, distributor, or government procurement agency, AMREKS is your trusted partner for reliable and compliant pharmaceutical supply solutions.</p>
+      <p><strong>Email:</strong> contact@amreks.com</p>
+      <p><strong>Phone:</strong> +91 9319355551</p>
+      <p><strong>Address:</strong> Anupam Vihar, Delhi Road, Saharanpur, Uttar Pradesh, India 247001</p>
+      <form action="https://formsubmit.co/contact@amreks.com" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required><br><br>
+        <input type="email" name="email" placeholder="Your Email" required><br><br>
+        <textarea name="message" placeholder="Your Message" rows="4" required></textarea><br><br>
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Overlay -->
+  <div id="overlay" class="overlay hidden">
+    <div class="overlay-content">
+      <span class="close-btn" onclick="closeOverlay()">×</span>
+      <h4 id="overlay-title"></h4>
+      <ul id="subcategory-list"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
